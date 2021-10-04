@@ -14,7 +14,7 @@ before_script:
   - echo "no tests"
 
 script:
- - export FAVORITE_FOOD="naco's pizza"
+  - export FAVORITE_FOOD="naco's pizza"
   - node server
 #  - docker --version # print the version for logging
 #  - docker build -t simple-node .
