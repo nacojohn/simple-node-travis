@@ -19,6 +19,6 @@ before_script:
 #  - docker tag simple-node nacojohn/simple-node:latest
 
 after_success:
-  node server
+  - node server
 #  - echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_USERNAME" --password-stdin
 #  - docker push nacojohn/simple-node
