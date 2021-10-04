@@ -14,12 +14,12 @@ before_script:
   - echo "no tests"
 
 script:
+ - export FAVORITE_FOOD="naco's pizza"
   - node server
 #  - docker --version # print the version for logging
 #  - docker build -t simple-node .
 #  - docker tag simple-node nacojohn/simple-node:latest
 
-after_success:
- - export FAVORITE_FOOD="naco's pizza"
+#after_success:
 #  - echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_USERNAME" --password-stdin
 #  - docker push nacojohn/simple-node
